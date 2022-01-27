@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.myContainer {
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 100px;
+}
+
+.navPosetion {
+    position: sticky;
+}
+
+#top-section {
+    background-color: #f2f2f2;
+    padding: 10px 15px;
+}
+
+@media only screen and (max-width: 767px) {
+    .topIcons {
+        padding: 5px 15px;
+    }
+}
+
+.myRow {
+    margin: 20px 15px;
+}
+
+.intro-sec i {
+    font-size: 30px;
+}
+
+.intro-sec div {
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px 0;
+}
+
+p {
+    margin: 0;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    font-weight: 600;
+}
