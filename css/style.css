@@ -59,7 +59,8 @@ p {
 
 
 #courses,
-#services {
+#services,
+#blog {
     background-color: #f2f2f2;
 }
 
@@ -67,3 +68,27 @@ p {
     padding: 0 0 10px 0;
     text-align: center;
 }
+
+.footer-nav {
+    list-style: none;
+    margin-bottom: 0;
+}
+
+.footer-nav li {
+    display: inline-block;
+}
+
+.yt {
+    color: red;
+}
+
+.up {
+    color: slateblue;
+}
+
+ul {
+    list-style: none;
+    padding: 0 10px;
+}
+
+
