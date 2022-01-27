@@ -90,4 +90,7 @@ ul {
     list-style: none;
 }
 
+.footerNav ul {
+    padding: 0;
+}
 
