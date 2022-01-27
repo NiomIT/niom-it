@@ -50,3 +50,14 @@ p {
     text-transform: uppercase;
     font-weight: 600;
 }
+
+.course-sec img{
+    border: 1px solid black;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.text-center,
+#courses {
+    background-color: #f2f2f2;
+}
