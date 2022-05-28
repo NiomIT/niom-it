@@ -18,16 +18,52 @@
 
 <body>
 
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Some text in the Modal..</p>
+        </div>
+
+    </div>
+
+    <div id="myModal2" class="modal">
+
+        <!-- Modal content 2 -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Some text in the Modal..</p>
+        </div>
+
+    </div>
 
 
 
     <section id="top-section" class="myContainer">
 
         <div class="row">
-            <div class="col-md-3 col-sm-6 col-6 topIcons"><i class="fas fa-clock"></i> 9am - 5pm</div>
-            <div class="col-md-3 col-sm-6 col-6 topIcons"><i class="fas fa-phone-alt"></i> 01303-002226</div>
-            <div class="col-md-3 col-sm-6 col-6 topIcons"><i class="fas fa-envelope-open-text"></i> mail@niom.it</div>
-            <div class="col-md-3 col-sm-6 col-6 topIcons"><i class="fas fa-headset"></i> Callback Request</div>
+            <div class="col-md-3 col-sm-6 col-6 topIcons">
+                <a href="#" id="myBtn">
+                    <i class="fas fa-clock"></i> 9am - 5pm
+                </a>
+            </div>
+            <div class="col-md-3 col-sm-6 col-6 topIcons">
+                <a href="tel:+8801303002226">
+                    <i class="fas fa-phone-alt"></i> 01303-002226
+                </a>
+            </div>
+            <div class="col-md-3 col-sm-6 col-6 topIcons">
+                <a href="mailto:mail@niom.it">
+                    <i class="fas fa-envelope-open-text"></i> mail@niom.it
+                </a>
+            </div>
+            <div class="col-md-3 col-sm-6 col-6 topIcons">
+                <a href="#" id="myBtn2">
+                    <i class="fas fa-headset"></i> Callback Request
+                </a>
+            </div>
         </div>
 
     </section>
@@ -76,16 +112,22 @@
         <div class="myRow">
             <div class="row intro-sec">
                 <div class="col-md-4 col-sm-4 col-4">
-                    <i class="fas fa-book-open"></i>
-                    <p><b>3</b> Courses</p>
+                    <a href="courses.html">
+                        <i class="fas fa-book-open"></i>
+                        <p><b>3</b> Courses</p>
+                    </a>
                 </div>
                 <div class="col-md-4 col-sm-4 col-4">
-                    <i class="fas fa-toolbox"></i>
-                    <p><b>6</b> Services</p>
+                    <a href="services.html">
+                        <i class="fas fa-toolbox"></i>
+                        <p><b>6</b> Services</p>
+                    </a>
                 </div>
                 <div class="col-md-4 col-sm-4 col-4">
-                    <i class="fab fa-blogger"></i>
-                    <p><b>3</b> Blog Topics</p>
+                    <a href="blog.html">
+                        <i class="fab fa-blogger"></i>
+                        <p><b>3</b> Blog Topics</p>
+                    </a>
                 </div>
             </div>
         </div>
@@ -113,7 +155,7 @@
 
         </div>
         <p class="seeMore">
-            <a href="#">See more Courses &#8594;</a>
+            <a href="courses.html">See more Courses &#8594;</a>
         </p>
 
     </section>
@@ -138,7 +180,7 @@
 
         </div>
         <p class="seeMore">
-            <a href="#">See more Reviews &#8594;</a>
+            <a href="https://www.facebook.com/niom.it.official/reviews/" target="_blank">See more Reviews &#8594;</a>
         </p>
 
     </section>
@@ -164,7 +206,7 @@
 
         </div>
         <p class="seeMore">
-            <a href="#">View all Services &#8594;</a>
+            <a href="services.html">View all Services &#8594;</a>
         </p>
 
     </section>
@@ -189,7 +231,7 @@
 
         </div>
         <p class="seeMore">
-            <a href="#">View all Feedbacks &#8594;</a>
+            <a href="https://www.facebook.com/niom.it.official/reviews/" target="_blank">View all Feedbacks &#8594;</a>
         </p>
 
     </section>
@@ -214,7 +256,7 @@
 
         </div>
         <p class="seeMore">
-            <a href="#">Read more Blog &#8594;</a>
+            <a href="blog.html">Read more Blog &#8594;</a>
         </p>
 
     </section>
@@ -232,7 +274,7 @@
                         <a class="nav-link" href="https://www.facebook.com/niom.it.official/"><i class="fab fa-facebook-square"></i></a>
                     </li>
                     <li>
-                        <a class="nav-link yt" href="#"><i class="fab fa-youtube-square"></i></a>
+                        <a class="nav-link yt" href="https://www.youtube.com/channel/UCEdLrOnbtD7tUgLp7uOW3-A/"><i class="fab fa-youtube-square"></i></a>
                     </li>
                     <li>
                         <a class="nav-link up" href="#"><i class="fas fa-caret-square-up"></i></a>
@@ -249,16 +291,40 @@
             <div class="row">
                 <div class="col-md-6 col-sm-6 col-12 footerNav">
                     <ul>
-                        <li><i class="fas fa-user-secret"></i> Privacy</li>
-                        <li><i class="fas fa-file-alt"></i> Terms</li>
-                        <li><i class="fas fa-share-alt"></i> Affiliate</li>
+                        <li>
+                            <a href="privacy-policy.html">
+                                <i class="fas fa-user-secret"></i> Privacy
+                            </a>
+                        </li>
+                        <li>
+                            <a href="terms-and-conditions.html">
+                                <i class="fas fa-file-alt"></i> Terms
+                            </a>
+                        </li>
+                        <li>
+                            <a href="affiliate-marketing.html">
+                                <i class="fas fa-share-alt"></i> Affiliate
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="col-md-6 col-sm-6 col-12 footerNav">
                     <ul>
-                        <li><i class="fas fa-phone-alt"></i> 01303-002226</li>
-                        <li><i class="fas fa-envelope-open-text"></i> mail@niom.it</li>
-                        <li><i class="fas fa-map-marker-alt"></i> Chasara, Pagla</li>
+                        <li>
+                            <a href="tel:+8801303002226">
+                                <i class="fas fa-phone-alt"></i> 01303-002226
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:mail@niom.it">
+                                <i class="fas fa-envelope-open-text"></i> mail@niom.it
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://goo.gl/maps/FxkekVF7Ya2BmYjx5" target="_blank">
+                                <i class="fas fa-map-marker-alt"></i> Chasara</a>,
+                            <a href="https://goo.gl/maps/FvrseqhYD8X8txaA7" target="_blank">Pagla</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -272,6 +338,7 @@
 
 
 
+    <script src="js/index.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
