@@ -162,3 +162,8 @@ a {
 .sticky-top {
     z-index: 0;
 }
+
+iframe {
+    width: 100%;
+    height: auto;
+}
