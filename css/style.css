@@ -88,6 +88,10 @@ ul {
     list-style: none;
 }
 
+.footerNav {
+    padding-top: 5px;
+}
+
 .footerNav ul {
     padding: 0;
 }
