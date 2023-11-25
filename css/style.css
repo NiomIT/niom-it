@@ -46,6 +46,11 @@ p {
     margin: 0;
 }
 
+.about-txt {
+    text-align: center;
+    color: #4d4c4c;
+}
+
 .nav-link {
     text-transform: uppercase;
 }
@@ -171,3 +176,36 @@ iframe {
     width: 100%;
     height: auto;
 }
+
+
+
+
+
+/*======================================
+*          Section Testimonial         *
+======================================*/
+
+.testimonial {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.testimonial img {
+    height: 120px;
+}
+
+.testimonial p {
+    margin: 22px 0 0 20px;
+}
+
+
+
+
+
+/* comment */
+.blockquote-footer {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: .875em;
+    color: #6c757d;
+  }
