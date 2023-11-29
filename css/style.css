@@ -13,8 +13,12 @@
     height: 22px;
 }
 
-nav {
+/* nav {
     z-index: 9999 !important;
+} */
+
+.btm-nav a {
+    padding: 5px 0;
 }
 
 .navPosetion {
