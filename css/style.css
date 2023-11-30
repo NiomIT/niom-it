@@ -77,7 +77,9 @@ p {
 #services,
 #blog,
 #authority,
-#catagory {
+#catagory,
+#topic
+ {
     background-color: #f2f2f2;
 }
 
