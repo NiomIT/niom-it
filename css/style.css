@@ -250,7 +250,9 @@ iframe {
     padding-right: 60px;
     margin-top: 20px;
     padding-top: 20px;
-    padding-bottom: 30px
+    padding-bottom: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .rating-box {
