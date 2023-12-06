@@ -389,6 +389,10 @@ td {
 }
 
 
+.myCardHeighlight {
+    background-color: rgb(253, 253, 185);
+}
+
 .cardImg {
     width: 100px;
     height: 100px;
