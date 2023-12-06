@@ -394,6 +394,11 @@ td {
     height: 100px;
 }
 
+.notfImg {
+    width: 65px;
+    height: 65px;
+}
+
 .vertical-center {
     height: 100%; 
     padding-right: 10px;
