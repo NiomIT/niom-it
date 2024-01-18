@@ -509,6 +509,34 @@ div.scrollmenu {
 }
 
 
+<<<<<<< HEAD
 
   
   
+=======
+.card-link {
+    font-size: 12px;
+}
+  
+  .opennow {
+    color: green;
+  }
+
+  .closenow {
+    color: red;
+  }
+
+  .disabled {
+    cursor: auto;
+    color: gainsboro;
+  }
+
+  .disabled:hover {
+    color: gainsboro;
+  }
+
+  .companyImg {
+    height: 16px;
+    width: 16px;
+  }
+>>>>>>> moin
