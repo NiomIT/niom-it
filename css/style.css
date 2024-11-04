@@ -180,3 +180,7 @@ iframe {
     color: white;
     padding: 5px 0;
 }
+
+.navbar {
+    z-index: 999;
+}
