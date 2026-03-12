@@ -5,7 +5,7 @@
 }
 
 .active {
-    color:red;
+    color:red !importent;
 }
 
 .myContainer {
